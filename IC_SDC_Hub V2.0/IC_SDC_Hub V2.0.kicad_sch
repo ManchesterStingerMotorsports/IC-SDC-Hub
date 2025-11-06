@@ -5,7 +5,7 @@
 	(uuid "b296b2e3-589e-4215-8d69-96257576fa6f")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x02"
+		(symbol "Custom_MSM:Connector_JST-XA_2POS"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -21,7 +21,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x02"
+			(property "Value" "JST-XA"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -29,7 +29,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Custom_MSM:Connector_JST-XA_2POS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -38,7 +38,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "MSM standard 2-pin JST-XA connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -56,7 +56,61 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "connector"
+			(property "MFN" "JST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFP" "B02B-XASK-1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "S1PN" "306-B02BXASK1LFSNP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "S1PL" "https://mou.sr/47CbilP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "S2PN" "455-B02B-XASK-1-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "S2PL" "https://www.digikey.co.uk/short/91htv4bz"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Connector JST XA JST-XA 2pos Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -74,7 +128,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x02_1_1"
+			(symbol "Connector_JST-XA_2POS_1_1"
 				(rectangle
 					(start -1.27 1.27)
 					(end 1.27 -3.81)
@@ -147,7 +201,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x04"
+		(symbol "Custom_MSM:Connector_JST-XA_4POS"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -163,7 +217,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x04"
+			(property "Value" "JST-XA"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -171,7 +225,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Custom_MSM:Connector_JST-XA_4POS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -180,7 +234,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -189,7 +243,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "MSM standard 4-pin JST-XA connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -198,7 +252,61 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "connector"
+			(property "MFN" "JST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFP" "B04B-XASK-1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "S1PN" "306-B04BXASK1LFSN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "S1PL" "https://mou.sr/43UoK3k"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "S2PN" "455-B04B-XASK-1-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "S2PL" "https://www.digikey.co.uk/short/bqqfzrzt"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Connector JST XA JST-XA 4pos Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -216,7 +324,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x04_1_1"
+			(symbol "Connector_JST-XA_4POS_1_1"
 				(rectangle
 					(start -1.27 3.81)
 					(end 1.27 -6.35)
@@ -1191,6 +1299,12 @@
 		(uuid "822ee22f-6056-435a-98f2-eae726a187b3")
 	)
 	(junction
+		(at 113.03 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33a310d4-f664-4823-9b44-4215370e87ac")
+	)
+	(junction
 		(at 190.5 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1200,23 +1314,7 @@
 		(at 113.03 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "545847b5-5aa5-456b-a890-3cd37faa13fc")
-	)
-	(junction
-		(at 113.03 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0bf8d40-b3fb-4fab-ae0c-b936d18a598e")
-	)
-	(wire
-		(pts
-			(xy 113.03 80.01) (xy 113.03 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "026df001-bcb0-473d-a453-707190e6aef8")
+		(uuid "d4d6066b-02f4-495a-9bec-81b470f6d1d9")
 	)
 	(wire
 		(pts
@@ -1337,6 +1435,16 @@
 			(type default)
 		)
 		(uuid "c999c17c-c194-4a5b-b38c-03dab300beed")
+	)
+	(wire
+		(pts
+			(xy 113.03 80.01) (xy 113.03 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e808eb38-3c45-400a-b98b-6738d775441c")
 	)
 	(wire
 		(pts
@@ -1538,12 +1646,136 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 203.2 100.33 0)
+		(lib_id "Custom_MSM:Connector_JST-XA_2POS")
+		(at 185.42 104.14 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(dnp no)
+		(uuid "1026d747-9eed-42ca-80d7-d2b1e272fb69")
+		(property "Reference" "J9"
+			(at 182.88 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST-XA"
+			(at 182.88 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_MSM:Connector_JST-XA_2POS"
+			(at 185.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
+			(at 185.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MSM standard 2-pin JST-XA connector"
+			(at 185.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "JST"
+			(at 185.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "B02B-XASK-1"
+			(at 185.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "306-B02BXASK1LFSNP"
+			(at 185.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://mou.sr/47CbilP"
+			(at 185.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PN" "455-B02B-XASK-1-ND"
+			(at 185.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PL" "https://www.digikey.co.uk/short/91htv4bz"
+			(at 185.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74c7ba88-ada9-4eff-b589-3c0f12defd0d")
+		)
+		(pin "2"
+			(uuid "b719ecf5-9cb7-4181-b2ae-d94e2d6c2408")
+		)
+		(instances
+			(project "IC_SDC_Hub V2.0"
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 203.2 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10dea782-aa51-43c6-a6d7-3b89e8749954")
@@ -1608,12 +1840,142 @@
 		)
 	)
 	(symbol
-		(lib_id "Custom_MSM:MOSFET_N-CH")
-		(at 200.66 109.22 0)
+		(lib_id "Custom_MSM:Connector_JST-XA_4POS")
+		(at 118.11 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28a4c6fb-d315-4408-bbec-f9574fc868d2")
+		(property "Reference" "J7"
+			(at 120.65 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST-XA"
+			(at 120.65 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_MSM:Connector_JST-XA_4POS"
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MSM standard 4-pin JST-XA connector"
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "JST"
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "B04B-XASK-1"
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "306-B04BXASK1LFSN"
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://mou.sr/43UoK3k"
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PN" "455-B04B-XASK-1-ND"
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PL" "https://www.digikey.co.uk/short/bqqfzrzt"
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "db968958-bb64-46cc-a695-2e5dfa5dd847")
+		)
+		(pin "3"
+			(uuid "2dce5099-36a1-4c95-8840-8ab7247d761f")
+		)
+		(pin "4"
+			(uuid "a8efb6d6-6486-4780-99d3-d2029d43b731")
+		)
+		(pin "1"
+			(uuid "c9500183-6415-47df-ad1f-3f9317f8e75c")
+		)
+		(instances
+			(project ""
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_MSM:MOSFET_N-CH")
+		(at 200.66 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2933cd71-3ab1-4a1a-a101-391d8e29f3bf")
@@ -1735,7 +2097,255 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
+		(lib_id "Custom_MSM:Connector_JST-XA_2POS")
+		(at 185.42 111.76 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "294b4f02-b894-4d75-82d2-0a89de90d7ff")
+		(property "Reference" "J8"
+			(at 182.88 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST-XA"
+			(at 182.88 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_MSM:Connector_JST-XA_2POS"
+			(at 185.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
+			(at 185.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MSM standard 2-pin JST-XA connector"
+			(at 185.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "JST"
+			(at 185.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "B02B-XASK-1"
+			(at 185.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "306-B02BXASK1LFSNP"
+			(at 185.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://mou.sr/47CbilP"
+			(at 185.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PN" "455-B02B-XASK-1-ND"
+			(at 185.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PL" "https://www.digikey.co.uk/short/91htv4bz"
+			(at 185.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4440cab4-0acb-4915-bd74-a5f438bfd323")
+		)
+		(pin "2"
+			(uuid "18e18e56-3736-4904-af51-f646b3cd743f")
+		)
+		(instances
+			(project "IC_SDC_Hub V2.0"
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_MSM:Connector_JST-XA_2POS")
+		(at 118.11 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31f4ef8a-d765-4e34-afb3-bc587f9e405d")
+		(property "Reference" "J6"
+			(at 120.65 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST-XA"
+			(at 120.65 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_MSM:Connector_JST-XA_2POS"
+			(at 118.11 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
+			(at 118.11 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MSM standard 2-pin JST-XA connector"
+			(at 118.11 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "JST"
+			(at 118.11 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "B02B-XASK-1"
+			(at 118.11 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "306-B02BXASK1LFSNP"
+			(at 118.11 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://mou.sr/47CbilP"
+			(at 118.11 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PN" "455-B02B-XASK-1-ND"
+			(at 118.11 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PL" "https://www.digikey.co.uk/short/91htv4bz"
+			(at 118.11 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d48e5f18-15fd-474c-aaac-6bbb6d16748a")
+		)
+		(pin "2"
+			(uuid "8af7f702-4448-45fa-b899-04cc5b29d08b")
+		)
+		(instances
+			(project "IC_SDC_Hub V2.0"
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_MSM:Connector_JST-XA_2POS")
 		(at 118.11 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1743,7 +2353,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "51f54f7a-b8f4-4921-a565-225eecbc7769")
+		(uuid "4e7fc769-c164-4c4a-8fc9-3686ee1c3d64")
 		(property "Reference" "J4"
 			(at 120.65 109.2199 0)
 			(effects
@@ -1753,7 +2363,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "JST-XA"
 			(at 120.65 111.7599 0)
 			(effects
 				(font
@@ -1762,7 +2372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_MSM:Connector_JST-XA_2POS"
 			(at 118.11 109.22 0)
 			(effects
 				(font
@@ -1771,7 +2381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
 			(at 118.11 109.22 0)
 			(effects
 				(font
@@ -1780,7 +2390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "MSM standard 2-pin JST-XA connector"
 			(at 118.11 109.22 0)
 			(effects
 				(font
@@ -1789,11 +2399,65 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "76eacdc2-5998-4665-9ca4-d5ad38a84e43")
+		(property "MFN" "JST"
+			(at 118.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "B02B-XASK-1"
+			(at 118.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "306-B02BXASK1LFSNP"
+			(at 118.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://mou.sr/47CbilP"
+			(at 118.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PN" "455-B02B-XASK-1-ND"
+			(at 118.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PL" "https://www.digikey.co.uk/short/91htv4bz"
+			(at 118.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "27fd65b9-d268-47a6-bd8a-f96daeb9bf14")
+			(uuid "906e9f79-9485-41fa-8b4f-bfc94fc82a97")
+		)
+		(pin "2"
+			(uuid "7db7af65-05d2-49b6-bb2b-eafaa7749996")
 		)
 		(instances
 			(project "IC_SDC_Hub V2.0"
@@ -1805,7 +2469,131 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
+		(lib_id "Custom_MSM:Connector_JST-XA_2POS")
+		(at 118.11 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d3a6f35-cd91-4b46-b329-ee65447cbae4")
+		(property "Reference" "J1"
+			(at 120.65 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST-XA"
+			(at 120.65 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_MSM:Connector_JST-XA_2POS"
+			(at 118.11 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
+			(at 118.11 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MSM standard 2-pin JST-XA connector"
+			(at 118.11 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "JST"
+			(at 118.11 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "B02B-XASK-1"
+			(at 118.11 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "306-B02BXASK1LFSNP"
+			(at 118.11 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://mou.sr/47CbilP"
+			(at 118.11 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PN" "455-B02B-XASK-1-ND"
+			(at 118.11 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PL" "https://www.digikey.co.uk/short/91htv4bz"
+			(at 118.11 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdcc45e3-0e2f-4535-bf90-b9d5515e957f")
+		)
+		(pin "2"
+			(uuid "8a3fe20d-1e7f-48d5-8284-66f1d7736ac6")
+		)
+		(instances
+			(project ""
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_MSM:Connector_JST-XA_2POS")
 		(at 118.11 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1813,7 +2601,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "937b2623-7eed-4b08-8b9f-9b6fa3b34a69")
+		(uuid "5f9bcc88-24d4-483f-833a-b55c5a230a8e")
 		(property "Reference" "J5"
 			(at 120.65 115.5699 0)
 			(effects
@@ -1823,7 +2611,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "JST-XA"
 			(at 120.65 118.1099 0)
 			(effects
 				(font
@@ -1832,7 +2620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_MSM:Connector_JST-XA_2POS"
 			(at 118.11 115.57 0)
 			(effects
 				(font
@@ -1841,7 +2629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
 			(at 118.11 115.57 0)
 			(effects
 				(font
@@ -1850,7 +2638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "MSM standard 2-pin JST-XA connector"
 			(at 118.11 115.57 0)
 			(effects
 				(font
@@ -1859,11 +2647,65 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "4d7792a3-279d-465f-b366-a34bda8d5f86")
+		(property "MFN" "JST"
+			(at 118.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "B02B-XASK-1"
+			(at 118.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "306-B02BXASK1LFSNP"
+			(at 118.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://mou.sr/47CbilP"
+			(at 118.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PN" "455-B02B-XASK-1-ND"
+			(at 118.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PL" "https://www.digikey.co.uk/short/91htv4bz"
+			(at 118.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "9b8aa128-1338-4dd2-9f05-43bb04a79528")
+			(uuid "731b06a2-abb1-4219-8ee9-670b076ead2a")
+		)
+		(pin "2"
+			(uuid "cfb10281-1990-4df1-829e-e18852bd7590")
 		)
 		(instances
 			(project "IC_SDC_Hub V2.0"
@@ -1875,17 +2717,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 118.11 102.87 0)
+		(lib_id "Custom_MSM:Connector_JST-XA_2POS")
+		(at 118.11 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "95b15a46-e9d3-4847-9af1-9bcef881afde")
-		(property "Reference" "J3"
-			(at 120.65 102.8699 0)
+		(uuid "62f08a8e-7a74-4c1c-8b5f-f3f44dc9d8b0")
+		(property "Reference" "J2"
+			(at 120.65 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1893,8 +2735,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
-			(at 120.65 105.4099 0)
+		(property "Value" "JST-XA"
+			(at 120.65 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1902,8 +2744,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 118.11 102.87 0)
+		(property "Footprint" "Custom_MSM:Connector_JST-XA_2POS"
+			(at 118.11 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1911,8 +2753,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 118.11 102.87 0)
+		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
+			(at 118.11 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1920,8 +2762,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 118.11 102.87 0)
+		(property "Description" "MSM standard 2-pin JST-XA connector"
+			(at 118.11 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1929,86 +2771,70 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "f3657728-b6ba-4247-820e-3491085a9932")
+		(property "MFN" "JST"
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "B02B-XASK-1"
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "306-B02BXASK1LFSNP"
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://mou.sr/47CbilP"
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PN" "455-B02B-XASK-1-ND"
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PL" "https://www.digikey.co.uk/short/91htv4bz"
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "262682c5-76cf-42f8-9194-39bd321a5e6a")
+			(uuid "276e677c-4732-4205-90b1-420af81af669")
+		)
+		(pin "2"
+			(uuid "8a8d117c-1962-4789-9ffa-75d8982ac7cc")
 		)
 		(instances
 			(project "IC_SDC_Hub V2.0"
 				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 118.11 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9cbba5b3-0fb4-4d5d-86c6-b7e24b64c8ee")
-		(property "Reference" "J1"
-			(at 120.65 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 120.65 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 118.11 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b86872bb-77ec-46a8-9763-54d1b360f28d")
-		)
-		(pin "1"
-			(uuid "8ddde106-023a-43a9-a5e2-a2f890f0edfa")
-		)
-		(instances
-			(project ""
-				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2081,17 +2907,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 118.11 80.01 0)
+		(lib_id "Custom_MSM:Connector_JST-XA_2POS")
+		(at 118.11 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b05853a6-5892-438f-afd3-c06df91258db")
-		(property "Reference" "J7"
-			(at 120.65 80.0099 0)
+		(uuid "c89ac07e-8fb0-41c8-ac00-188a3d20eb01")
+		(property "Reference" "J3"
+			(at 120.65 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2099,8 +2925,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 120.65 82.5499 0)
+		(property "Value" "JST-XA"
+			(at 120.65 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2108,8 +2934,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 118.11 80.01 0)
+		(property "Footprint" "Custom_MSM:Connector_JST-XA_2POS"
+			(at 118.11 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2117,8 +2943,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 118.11 80.01 0)
+		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
+			(at 118.11 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2126,8 +2952,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 118.11 80.01 0)
+		(property "Description" "MSM standard 2-pin JST-XA connector"
+			(at 118.11 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2135,302 +2961,70 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "91d56171-ff39-4997-a804-8120dd17c681")
+		(property "MFN" "JST"
+			(at 118.11 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "B02B-XASK-1"
+			(at 118.11 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "306-B02BXASK1LFSNP"
+			(at 118.11 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://mou.sr/47CbilP"
+			(at 118.11 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PN" "455-B02B-XASK-1-ND"
+			(at 118.11 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PL" "https://www.digikey.co.uk/short/91htv4bz"
+			(at 118.11 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "5e5cb442-2298-41ba-8132-9ec27217c773")
+			(uuid "0ea9644e-84a2-442c-ac9f-d1d899a2d151")
 		)
 		(pin "2"
-			(uuid "74e42d7f-0659-4b19-86d0-50477d8e3b52")
-		)
-		(pin "3"
-			(uuid "02ba1768-b3c1-4c55-95db-20f69fd5389e")
-		)
-		(instances
-			(project ""
-				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 118.11 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0998563-3dad-4e9e-893c-938813a5b25c")
-		(property "Reference" "J2"
-			(at 120.65 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 120.65 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 118.11 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d939ba15-b642-467d-9eab-43178b207e36")
-		)
-		(pin "1"
-			(uuid "4877ed5c-5d6c-4542-8652-63178b5343b4")
+			(uuid "e7131bad-adf4-431b-85f6-3337912cc407")
 		)
 		(instances
 			(project "IC_SDC_Hub V2.0"
 				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 118.11 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc5bf3db-efe7-4c7a-a909-474e1d986c59")
-		(property "Reference" "J6"
-			(at 120.65 121.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 120.65 124.4599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 118.11 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "20e730a6-f09a-4801-afd8-6b38eb084313")
-		)
-		(pin "1"
-			(uuid "4df6a648-32b6-4ce1-9274-4142c5e075a5")
-		)
-		(instances
-			(project "IC_SDC_Hub V2.0"
-				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 185.42 106.68 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d25397ba-46e3-4bb4-8054-3fee7b232ea9")
-		(property "Reference" "J9"
-			(at 182.88 106.6801 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 182.88 104.1401 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 185.42 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "24eefe3d-a0fe-41ea-9e0b-1970c7176eb6")
-		)
-		(pin "1"
-			(uuid "6abd0e7b-8822-4669-9e5a-0dc53a48de9f")
-		)
-		(instances
-			(project "IC_SDC_Hub V2.0"
-				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 185.42 114.3 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed3db188-ec1e-4ca8-a089-bc81d5f9ec98")
-		(property "Reference" "J8"
-			(at 182.88 114.3001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 182.88 111.7601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 185.42 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f911f94c-4eb6-42ac-9139-e66550d61b86")
-		)
-		(pin "1"
-			(uuid "1765b0ee-e6d6-4a03-97fe-99d02e74d7b0")
-		)
-		(instances
-			(project "IC_SDC_Hub V2.0"
-				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
-					(reference "J8")
+					(reference "J3")
 					(unit 1)
 				)
 			)
