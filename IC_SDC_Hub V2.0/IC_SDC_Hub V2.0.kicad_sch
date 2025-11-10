@@ -5,6 +5,113 @@
 	(uuid "b296b2e3-589e-4215-8d69-96257576fa6f")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Custom_MSM:Connector_JST-XA_2POS"
 			(pin_names
 				(offset 1.016)
@@ -1205,18 +1312,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 156.21 80.01)
-		(end 243.84 129.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid deed4acc-18e6-49ef-aa66-ae6c8f3b8e3a)
-	)
 	(text "LEFT SDB\n"
 		(exclude_from_sim no)
 		(at 139.7 104.648 0)
@@ -1278,16 +1373,6 @@
 		)
 		(uuid "42d543a2-259f-4135-8f76-7162f8ec79aa")
 	)
-	(text "Example for LEDs (delete this)"
-		(exclude_from_sim no)
-		(at 173.228 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6d14f871-1949-4d83-b2af-d51065fdfe08")
-	)
 	(text "COCKPIT SDB"
 		(exclude_from_sim no)
 		(at 139.7 98.298 0)
@@ -1299,16 +1384,70 @@
 		(uuid "822ee22f-6056-435a-98f2-eae726a187b3")
 	)
 	(junction
+		(at 113.03 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0687a01a-dd3b-46be-ae1d-4e1e608bd424")
+	)
+	(junction
+		(at 74.93 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "293d7557-c1b1-4184-9789-69cf7a0c4c28")
+	)
+	(junction
 		(at 113.03 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33a310d4-f664-4823-9b44-4215370e87ac")
 	)
 	(junction
-		(at 190.5 109.22)
+		(at 54.61 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3630ecd4-6051-48c1-bf20-bd41879288b3")
+		(uuid "357bdbe5-cd74-4e55-ac97-ad0982583050")
+	)
+	(junction
+		(at 113.03 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "564b8128-687c-4cb8-bd2a-46112950e477")
+	)
+	(junction
+		(at 113.03 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "677fab7f-3c8b-4dfe-83e8-76e61906fd05")
+	)
+	(junction
+		(at 54.61 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e5bd07c-bc06-461b-adc7-04805edeb9f2")
+	)
+	(junction
+		(at 60.96 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac361f19-72e2-4d1a-8266-6ea2cda94e4c")
+	)
+	(junction
+		(at 113.03 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aefb8c66-f852-4cb6-84a2-7f10b2da3da6")
+	)
+	(junction
+		(at 69.85 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0503596-df8e-4592-a01d-e3cf8185847b")
+	)
+	(junction
+		(at 113.03 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d055fad6-5f8e-42b0-b83f-ddb5c9d58698")
 	)
 	(junction
 		(at 113.03 82.55)
@@ -1316,25 +1455,57 @@
 		(color 0 0 0 0)
 		(uuid "d4d6066b-02f4-495a-9bec-81b470f6d1d9")
 	)
-	(wire
-		(pts
-			(xy 113.03 85.09) (xy 113.03 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03c03999-5bf8-4e0b-97ed-542e715b09d7")
+	(junction
+		(at 113.03 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea08f747-6a90-428a-9228-9eccf93aed24")
+	)
+	(junction
+		(at 96.52 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9a602c4-0ce4-4bf4-af64-430e50426276")
 	)
 	(wire
 		(pts
-			(xy 195.58 109.22) (xy 190.5 109.22)
+			(xy 63.5 93.98) (xy 113.03 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0454aa23-cc8b-4eec-9b87-bbe9da0585fc")
+		(uuid "04bb4f9c-1266-49a6-a4b2-c2341a05c980")
+	)
+	(wire
+		(pts
+			(xy 83.82 137.16) (xy 83.82 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09cc2b62-b80c-405e-a2a2-69b8274a51bf")
+	)
+	(wire
+		(pts
+			(xy 90.17 152.4) (xy 90.17 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b607d07-e0b1-4578-9090-c51e437f08f8")
+	)
+	(wire
+		(pts
+			(xy 43.18 132.08) (xy 39.37 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ba2e512-b0d6-4e58-b0cf-64344dca244e")
 	)
 	(wire
 		(pts
@@ -1348,7 +1519,17 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 82.55) (xy 113.03 82.55)
+			(xy 46.99 157.48) (xy 80.01 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "118a7f65-60ad-4c68-ac01-c46a4da01357")
+	)
+	(wire
+		(pts
+			(xy 22.86 82.55) (xy 113.03 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1358,7 +1539,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 124.46) (xy 99.06 124.46)
+			(xy 113.03 176.53) (xy 22.86 176.53)
 		)
 		(stroke
 			(width 0)
@@ -1368,7 +1549,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 92.71) (xy 113.03 96.52)
+			(xy 83.82 137.16) (xy 81.28 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2155c46f-ea9c-4c96-8066-30683ed523d8")
+	)
+	(wire
+		(pts
+			(xy 113.03 92.71) (xy 113.03 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1378,7 +1569,47 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 111.76) (xy 113.03 115.57)
+			(xy 90.17 172.72) (xy 99.06 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23b9df4e-3956-4e7e-ad0a-e36194705d54")
+	)
+	(wire
+		(pts
+			(xy 113.03 107.95) (xy 113.03 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23e3d9e4-755f-4e7b-b10f-7848d3c2e630")
+	)
+	(wire
+		(pts
+			(xy 106.68 167.64) (xy 113.03 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30aed89a-7b1a-4ee5-9036-430b21c60b76")
+	)
+	(wire
+		(pts
+			(xy 113.03 105.41) (xy 113.03 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35469989-d822-4494-9330-010eab54bd28")
+	)
+	(wire
+		(pts
+			(xy 113.03 111.76) (xy 113.03 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1388,7 +1619,47 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 124.46) (xy 99.06 82.55)
+			(xy 78.74 107.95) (xy 113.03 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ca41b16-3e0e-40e5-8beb-82c7bee9cd3a")
+	)
+	(wire
+		(pts
+			(xy 50.8 104.14) (xy 54.61 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e741c8c-681d-4773-b1fa-5919f9dea313")
+	)
+	(wire
+		(pts
+			(xy 113.03 176.53) (xy 113.03 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42df4311-63e0-40e9-919e-721f5249bac6")
+	)
+	(wire
+		(pts
+			(xy 60.96 118.11) (xy 63.5 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "478f96d8-8c18-46d5-9384-bd7081a17143")
+	)
+	(wire
+		(pts
+			(xy 22.86 176.53) (xy 22.86 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1398,13 +1669,113 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 111.76) (xy 190.5 109.22)
+			(xy 78.74 123.19) (xy 78.74 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6752269a-41d0-4cf5-82ba-c769d85dbab8")
+		(uuid "50fc9b8a-ebaa-46f9-b298-fd3d26bbc722")
+	)
+	(wire
+		(pts
+			(xy 50.8 118.11) (xy 60.96 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cd1c9c3-c3c1-4aa2-85a2-2492216fed00")
+	)
+	(wire
+		(pts
+			(xy 54.61 88.9) (xy 55.88 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60e86d93-376e-4a90-81da-10076491f2b3")
+	)
+	(wire
+		(pts
+			(xy 87.63 152.4) (xy 90.17 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67b68fb7-cde1-4013-be9b-f4ccd04fff5f")
+	)
+	(wire
+		(pts
+			(xy 69.85 132.08) (xy 73.66 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69078ed1-e181-4ff7-82a1-c2a5383ffa93")
+	)
+	(wire
+		(pts
+			(xy 73.66 101.6) (xy 113.03 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75e1dfa8-f1c4-410d-84d3-7cc84d52b4ed")
+	)
+	(wire
+		(pts
+			(xy 50.8 147.32) (xy 74.93 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80a5c4fc-518e-45d3-b58b-05a8ccf40d9a")
+	)
+	(wire
+		(pts
+			(xy 43.18 118.11) (xy 39.37 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82ee316d-6e06-4ac8-bf56-b2a9d80ea762")
+	)
+	(wire
+		(pts
+			(xy 50.8 88.9) (xy 54.61 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84286d1a-0ef3-4ac2-a84a-4b5c034f646d")
+	)
+	(wire
+		(pts
+			(xy 46.99 114.3) (xy 55.88 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87a5c4ad-4339-448b-890c-49e1db3f9d0d")
+	)
+	(wire
+		(pts
+			(xy 113.03 167.64) (xy 113.03 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b3fbdee-b302-49d1-a8eb-45f92d1af153")
 	)
 	(wire
 		(pts
@@ -1418,7 +1789,27 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 99.06) (xy 113.03 102.87)
+			(xy 55.88 99.06) (xy 49.53 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "977a8663-f0e1-4128-aa93-98921a65f279")
+	)
+	(wire
+		(pts
+			(xy 113.03 101.6) (xy 113.03 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ef8392a-93e9-4b3b-8a11-8de3c63b766a")
+	)
+	(wire
+		(pts
+			(xy 113.03 99.06) (xy 113.03 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1428,13 +1819,123 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 109.22) (xy 190.5 106.68)
+			(xy 113.03 85.09) (xy 113.03 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c999c17c-c194-4a5b-b38c-03dab300beed")
+		(uuid "b4d9681e-8545-4b08-823e-5b9eb840a8ed")
+	)
+	(wire
+		(pts
+			(xy 96.52 162.56) (xy 99.06 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5526313-4da2-467a-986e-68c8366c5385")
+	)
+	(wire
+		(pts
+			(xy 46.99 142.24) (xy 73.66 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7c5554d-d0a1-41a4-9c48-d831fad112fe")
+	)
+	(wire
+		(pts
+			(xy 86.36 162.56) (xy 82.55 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cce2c43a-2632-4446-a85a-f7621814884e")
+	)
+	(wire
+		(pts
+			(xy 113.03 93.98) (xy 113.03 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cedac4e6-02a2-4500-ad8d-cd19bdc282b4")
+	)
+	(wire
+		(pts
+			(xy 113.03 114.3) (xy 113.03 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0fce9d2-d8f0-40db-9b09-50a4c1751845")
+	)
+	(wire
+		(pts
+			(xy 73.66 109.22) (xy 73.66 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4975120-fe8e-423c-a194-5d5398f1c5d1")
+	)
+	(wire
+		(pts
+			(xy 43.18 88.9) (xy 39.37 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5f15237-dd8b-439c-8aa7-2a7350bdd3b4")
+	)
+	(wire
+		(pts
+			(xy 54.61 104.14) (xy 55.88 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc0f0fd3-23bd-4d80-938c-06efad01a0c6")
+	)
+	(wire
+		(pts
+			(xy 74.93 147.32) (xy 80.01 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfc3435b-7df0-4eee-aec7-4288ced2b39b")
+	)
+	(wire
+		(pts
+			(xy 90.17 121.92) (xy 113.03 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e650f994-90c5-4069-936c-ea9f90fdc314")
+	)
+	(wire
+		(pts
+			(xy 43.18 147.32) (xy 39.37 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7669692-93ab-4f00-b81a-f54d6ca985c6")
 	)
 	(wire
 		(pts
@@ -1448,13 +1949,117 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 105.41) (xy 113.03 109.22)
+			(xy 46.99 128.27) (xy 63.5 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ecba32fc-1737-48c3-9e1b-eee4d2fca819")
+		(uuid "e8d30d84-5081-4735-a8c7-d739eae132e3")
+	)
+	(wire
+		(pts
+			(xy 43.18 104.14) (xy 39.37 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb323972-6caf-4c10-9c4b-b4341dc997ff")
+	)
+	(wire
+		(pts
+			(xy 93.98 162.56) (xy 96.52 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee44cc83-c2ee-4440-970f-f2ccd464fc79")
+	)
+	(wire
+		(pts
+			(xy 50.8 132.08) (xy 69.85 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef2a4e11-9f2a-4d57-bc5a-0652925bfde8")
+	)
+	(wire
+		(pts
+			(xy 73.66 109.22) (xy 63.5 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8f9237c-91ba-4593-9377-8274d489aebf")
+	)
+	(wire
+		(pts
+			(xy 78.74 123.19) (xy 71.12 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd4acbc5-bd93-47ec-8214-5940c0499219")
+	)
+	(wire
+		(pts
+			(xy 83.82 114.3) (xy 113.03 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc1a766-d247-4ae5-96b4-de8bb6aa105f")
+	)
+	(global_label "LVMS"
+		(shape input)
+		(at 31.75 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "08ef95ed-b623-4ee4-a720-2be3128ae506")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 23.9872 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LVMS"
+		(shape input)
+		(at 74.93 162.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0dedfcce-689a-4038-a7a1-7b67713a58f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.1672 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "LVMS"
 		(shape input)
@@ -1480,7 +2085,7 @@
 	)
 	(global_label "LVMS"
 		(shape input)
-		(at 203.2 88.9 180)
+		(at 31.75 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1488,9 +2093,9 @@
 			)
 			(justify right)
 		)
-		(uuid "7ffe4586-5d03-431d-9aa6-0a22c9df9fbf")
+		(uuid "224b8f7b-0655-404f-af09-a6772c08c633")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.4372 88.9 0)
+			(at 23.9872 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1500,31 +2105,9 @@
 			)
 		)
 	)
-	(global_label "SDC_IN"
+	(global_label "LVMS"
 		(shape input)
-		(at 190.5 104.14 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "87d5de69-c43a-4760-8c91-b649cbc5616e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.5 94.5024 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDC_OUT"
-		(shape input)
-		(at 190.5 114.3 270)
+		(at 31.75 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1532,9 +2115,53 @@
 			)
 			(justify right)
 		)
-		(uuid "a989f5a9-7fbb-4ce8-bd81-d67d8eadca54")
+		(uuid "6868f5fc-f2ed-4f7f-842f-40083ea3dfd8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.5 125.6309 90)
+			(at 23.9872 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LVMS"
+		(shape input)
+		(at 31.75 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6e5891bb-4ab1-4500-b6c8-1ea4cdb53d6e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 23.9872 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LVMS"
+		(shape input)
+		(at 31.75 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8404d0bf-eacb-46a8-9a0f-950f20458192")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 23.9872 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1567,17 +2194,85 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 203.2 92.71 90)
+		(lib_id "Connector:TestPoint")
+		(at 54.61 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "063e4a91-f6aa-46c8-8ea0-ba95f6cef89e")
-		(property "Reference" "D1"
-			(at 207.01 93.0274 90)
+		(uuid "05c703eb-9bd0-4075-9461-7079be0ae3da")
+		(property "Reference" "TP6"
+			(at 57.15 84.3279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 57.15 86.8679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 54.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee8d39e7-d93f-4e6b-aa6b-e9061903bef9")
+		)
+		(instances
+			(project "IC_SDC_Hub V2.0"
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 35.56 132.08 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14b5e2a5-d740-4bf3-a1c1-faf71a2a8cf8")
+		(property "Reference" "D5"
+			(at 35.8774 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1586,7 +2281,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 207.01 95.5674 90)
+			(at 38.4174 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1595,7 +2290,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 92.71 0)
+			(at 35.56 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1604,7 +2299,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 92.71 0)
+			(at 35.56 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1613,7 +2308,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 203.2 92.71 0)
+			(at 35.56 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1622,7 +2317,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 203.2 92.71 0)
+			(at 35.56 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1631,156 +2326,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "551cd0c4-22c3-4b4e-b745-9471aaf0a3d7")
+			(uuid "dcb31607-10e2-489c-ab17-24d9825866b7")
 		)
 		(pin "2"
-			(uuid "718922b6-a152-4bc5-a5b7-d05cb4a90a22")
+			(uuid "bce4d95b-cbfc-49a1-91fb-64b2191110ae")
 		)
 		(instances
-			(project ""
+			(project "IC_SDC_Hub V2.0"
 				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
-					(reference "D1")
+					(reference "D5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Custom_MSM:Connector_JST-XA_2POS")
-		(at 185.42 104.14 0)
-		(mirror y)
+		(lib_id "Connector:TestPoint")
+		(at 54.61 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1026d747-9eed-42ca-80d7-d2b1e272fb69")
-		(property "Reference" "J9"
-			(at 182.88 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "JST-XA"
-			(at 182.88 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Custom_MSM:Connector_JST-XA_2POS"
-			(at 185.42 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
-			(at 185.42 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MSM standard 2-pin JST-XA connector"
-			(at 185.42 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" "JST"
-			(at 185.42 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFP" "B02B-XASK-1"
-			(at 185.42 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S1PN" "306-B02BXASK1LFSNP"
-			(at 185.42 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S1PL" "https://mou.sr/47CbilP"
-			(at 185.42 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S2PN" "455-B02B-XASK-1-ND"
-			(at 185.42 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S2PL" "https://www.digikey.co.uk/short/91htv4bz"
-			(at 185.42 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "74c7ba88-ada9-4eff-b589-3c0f12defd0d")
-		)
-		(pin "2"
-			(uuid "b719ecf5-9cb7-4181-b2ae-d94e2d6c2408")
-		)
-		(instances
-			(project "IC_SDC_Hub V2.0"
-				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 203.2 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "10dea782-aa51-43c6-a6d7-3b89e8749954")
-		(property "Reference" "R1"
-			(at 205.74 99.0599 0)
+		(uuid "2340cfb7-3a4e-4bf3-b039-3f54472fe481")
+		(property "Reference" "TP5"
+			(at 57.15 99.5679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1788,8 +2359,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 205.74 101.5999 0)
+		(property "Value" "TestPoint"
+			(at 57.15 102.1079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1798,7 +2369,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.422 100.33 90)
+			(at 59.69 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1807,7 +2378,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 100.33 0)
+			(at 59.69 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1815,8 +2386,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 203.2 100.33 0)
+		(property "Description" "test point"
+			(at 54.61 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1825,15 +2396,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cc6bb1a0-34f8-4189-975b-270c61858f86")
-		)
-		(pin "2"
-			(uuid "d07348b8-b79c-49c9-95ac-5c0c45f497f9")
+			(uuid "d5f6e035-7146-4372-ae93-75f738c38fe5")
 		)
 		(instances
-			(project ""
+			(project "IC_SDC_Hub V2.0"
 				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
-					(reference "R1")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -1970,35 +2538,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Custom_MSM:MOSFET_N-CH")
-		(at 200.66 109.22 0)
+		(lib_id "power:GND")
+		(at 46.99 128.27 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2933cd71-3ab1-4a1a-a101-391d8e29f3bf")
-		(property "Reference" "Q1"
-			(at 207.01 110.4901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS205N"
-			(at 207.01 107.9501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Custom_MSM:MOSFET_Single_SOT-23"
-			(at 205.74 106.68 0)
+		(uuid "2c443e09-a0eb-47ea-b1e0-7f640d2f082a")
+		(property "Reference" "#PWR04"
+			(at 40.64 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2006,8 +2557,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/BSS205N_Rev2.4.pdf?folderId=db3a3043156fd573011622e10b5c1f67&fileId=db3a304330f686060131091244950062"
-			(at 200.66 109.22 0)
+		(property "Value" "GND"
+			(at 43.18 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2015,8 +2575,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MSM standard 3-pin N-Channel MOSFET"
-			(at 200.66 109.22 0)
+		(property "Datasheet" ""
+			(at 46.99 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2024,53 +2584,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "Infineon"
-			(at 200.66 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFP" "BSS205NH6327XTSA1"
-			(at 200.66 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S1PN" "726-BSS205NH6327"
-			(at 200.66 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S1PL" "https://mou.sr/3WyFwkN"
-			(at 200.66 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S2PN" "BSS205NH6327XTSA1CT-ND"
-			(at 200.66 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S2PL" "https://www.digikey.co.uk/short/wdw0q373"
-			(at 200.66 109.22 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2079,35 +2594,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "0cfcdf65-8707-4aee-aa61-6dc53ebb751b")
-		)
-		(pin "2"
-			(uuid "7dd75047-db00-4935-80c9-635ea11012bf")
-		)
-		(pin "3"
-			(uuid "fc330680-60e5-4ccf-9632-cd037b5e9ae6")
+			(uuid "1a8f296e-69a7-49ba-bc24-69aa38446813")
 		)
 		(instances
-			(project ""
+			(project "IC_SDC_Hub V2.0"
 				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
-					(reference "Q1")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Custom_MSM:Connector_JST-XA_2POS")
-		(at 185.42 111.76 0)
-		(mirror y)
+		(lib_id "Connector:TestPoint")
+		(at 96.52 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "294b4f02-b894-4d75-82d2-0a89de90d7ff")
-		(property "Reference" "J8"
-			(at 182.88 111.7599 0)
+		(fields_autoplaced yes)
+		(uuid "2d76e036-4c19-491b-956b-05756661035e")
+		(property "Reference" "TP1"
+			(at 99.06 157.9879 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2115,8 +2624,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "JST-XA"
-			(at 182.88 114.2999 0)
+		(property "Value" "TestPoint"
+			(at 99.06 160.5279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2124,8 +2633,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom_MSM:Connector_JST-XA_2POS"
-			(at 185.42 111.76 0)
+		(property "Footprint" ""
+			(at 101.6 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2133,8 +2642,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
-			(at 185.42 111.76 0)
+		(property "Datasheet" "~"
+			(at 101.6 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2142,62 +2651,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MSM standard 2-pin JST-XA connector"
-			(at 185.42 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" "JST"
-			(at 185.42 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFP" "B02B-XASK-1"
-			(at 185.42 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S1PN" "306-B02BXASK1LFSNP"
-			(at 185.42 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S1PL" "https://mou.sr/47CbilP"
-			(at 185.42 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S2PN" "455-B02B-XASK-1-ND"
-			(at 185.42 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S2PL" "https://www.digikey.co.uk/short/91htv4bz"
-			(at 185.42 111.76 0)
+		(property "Description" "test point"
+			(at 96.52 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2206,15 +2661,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4440cab4-0acb-4915-bd74-a5f438bfd323")
-		)
-		(pin "2"
-			(uuid "18e18e56-3736-4904-af51-f646b3cd743f")
+			(uuid "7639384f-9a22-4ed1-a983-731d28f808d3")
 		)
 		(instances
-			(project "IC_SDC_Hub V2.0"
+			(project ""
 				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
-					(reference "J8")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -2345,6 +2797,304 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 35.56 104.14 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32ec48b1-50cd-41b6-9ed7-144e26ac570e")
+		(property "Reference" "D3"
+			(at 35.8774 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 38.4174 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 35.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 35.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b09ab99-0417-43c7-b0c4-de8f083d4110")
+		)
+		(pin "2"
+			(uuid "41172bb2-5354-442d-8cca-cc994ae8062a")
+		)
+		(instances
+			(project "IC_SDC_Hub V2.0"
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 99.06 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36ceb719-6484-47cc-9b34-9b5961a8d27c")
+		(property "Reference" "#PWR02"
+			(at 43.18 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.974 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ed992c2-743f-4455-ad46-69157b97a2e9")
+		)
+		(instances
+			(project "IC_SDC_Hub V2.0"
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 35.56 88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d63fee5-9570-47ea-a4b3-04a8a5312f07")
+		(property "Reference" "D2"
+			(at 35.8774 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 38.4174 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 35.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 35.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b24b64b-dfbb-4202-95d2-b8fa91a19e9d")
+		)
+		(pin "2"
+			(uuid "6c441191-403e-44ce-8452-fdea9a6c162b")
+		)
+		(instances
+			(project "IC_SDC_Hub V2.0"
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 46.99 147.32 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4546d72e-f7f4-4884-b75f-88c3b578eedd")
+		(property "Reference" "R6"
+			(at 45.7199 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 48.2599 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 145.542 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 46.99 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94ea9fcb-2c9c-4047-a1b9-20f541c8e13d")
+		)
+		(pin "2"
+			(uuid "e8be88b6-acff-46c8-b003-2a4175b8f324")
+		)
+		(instances
+			(project "IC_SDC_Hub V2.0"
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Custom_MSM:Connector_JST-XA_2POS")
 		(at 118.11 109.22 0)
 		(unit 1)
@@ -2463,6 +3213,133 @@
 			(project "IC_SDC_Hub V2.0"
 				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_MSM:MOSFET_N-CH")
+		(at 101.6 167.64 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "4fac0210-cf71-44c9-9672-276b7b53f2ac")
+		(property "Reference" "Q7"
+			(at 94.742 168.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS205N"
+			(at 96.012 172.212 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_MSM:MOSFET_Single_SOT-23"
+			(at 96.52 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/BSS205N_Rev2.4.pdf?folderId=db3a3043156fd573011622e10b5c1f67&fileId=db3a304330f686060131091244950062"
+			(at 101.6 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MSM standard 3-pin N-Channel MOSFET"
+			(at 101.6 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Infineon"
+			(at 101.6 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "BSS205NH6327XTSA1"
+			(at 101.6 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "726-BSS205NH6327"
+			(at 101.6 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://mou.sr/3WyFwkN"
+			(at 101.6 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PN" "BSS205NH6327XTSA1CT-ND"
+			(at 101.6 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PL" "https://www.digikey.co.uk/short/wdw0q373"
+			(at 101.6 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac7dfcf8-9bf2-4d6c-9a9f-8dc044eed716")
+		)
+		(pin "2"
+			(uuid "6df11b86-880d-4812-bf9a-270c89acd6a7")
+		)
+		(pin "3"
+			(uuid "581c5b92-2153-4d41-a8ce-e083af4be0c6")
+		)
+		(instances
+			(project "IC_SDC_Hub V2.0"
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -2841,34 +3718,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 203.2 114.3 0)
+		(lib_id "Connector:TestPoint")
+		(at 60.96 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "aaad0dde-24a8-4618-a42a-9fa75cc31e3a")
-		(property "Reference" "#PWR01"
-			(at 203.2 120.65 0)
+		(uuid "671540ba-d881-4244-878a-9dc850553ca1")
+		(property "Reference" "TP4"
+			(at 63.5 113.5379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 203.2 119.38 0)
+		(property "Value" "TestPoint"
+			(at 63.5 116.0779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 114.3 0)
+			(at 66.04 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2876,8 +3754,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 203.2 114.3 0)
+		(property "Datasheet" "~"
+			(at 66.04 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2885,8 +3763,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 114.3 0)
+		(property "Description" "test point"
+			(at 60.96 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2895,12 +3773,830 @@
 			)
 		)
 		(pin "1"
-			(uuid "cf029686-30b1-4286-9b3d-931b171638b0")
+			(uuid "1f40a935-455a-40d5-bb5d-34e572a21809")
 		)
 		(instances
-			(project ""
+			(project "IC_SDC_Hub V2.0"
 				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
-					(reference "#PWR01")
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_MSM:MOSFET_N-CH")
+		(at 58.42 109.22 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "6a554705-d43e-43e2-9ed1-3a1b48f4ef34")
+		(property "Reference" "Q3"
+			(at 51.562 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS205N"
+			(at 52.832 113.792 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_MSM:MOSFET_Single_SOT-23"
+			(at 53.34 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/BSS205N_Rev2.4.pdf?folderId=db3a3043156fd573011622e10b5c1f67&fileId=db3a304330f686060131091244950062"
+			(at 58.42 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MSM standard 3-pin N-Channel MOSFET"
+			(at 58.42 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Infineon"
+			(at 58.42 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "BSS205NH6327XTSA1"
+			(at 58.42 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "726-BSS205NH6327"
+			(at 58.42 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://mou.sr/3WyFwkN"
+			(at 58.42 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PN" "BSS205NH6327XTSA1CT-ND"
+			(at 58.42 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PL" "https://www.digikey.co.uk/short/wdw0q373"
+			(at 58.42 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca08b9a4-7a7f-4058-b729-4c1d53baa52c")
+		)
+		(pin "2"
+			(uuid "afdbd214-65a9-43f9-aa4e-3f2b7af9da63")
+		)
+		(pin "3"
+			(uuid "9901fafe-3d12-4797-a0de-78f8ba3bf667")
+		)
+		(instances
+			(project "IC_SDC_Hub V2.0"
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 46.99 142.24 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "817b380d-8569-43bf-9b5a-05441f80a1b6")
+		(property "Reference" "#PWR05"
+			(at 40.64 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc936214-600e-4c4a-b2e0-45d64362bc24")
+		)
+		(instances
+			(project "IC_SDC_Hub V2.0"
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_MSM:MOSFET_N-CH")
+		(at 82.55 152.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "8467dbd9-a9b4-4076-9b95-4606cc8d233c")
+		(property "Reference" "Q6"
+			(at 75.692 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS205N"
+			(at 76.962 156.972 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_MSM:MOSFET_Single_SOT-23"
+			(at 77.47 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/BSS205N_Rev2.4.pdf?folderId=db3a3043156fd573011622e10b5c1f67&fileId=db3a304330f686060131091244950062"
+			(at 82.55 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MSM standard 3-pin N-Channel MOSFET"
+			(at 82.55 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Infineon"
+			(at 82.55 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "BSS205NH6327XTSA1"
+			(at 82.55 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "726-BSS205NH6327"
+			(at 82.55 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://mou.sr/3WyFwkN"
+			(at 82.55 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PN" "BSS205NH6327XTSA1CT-ND"
+			(at 82.55 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PL" "https://www.digikey.co.uk/short/wdw0q373"
+			(at 82.55 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49355350-efa6-4936-8946-204f6927778f")
+		)
+		(pin "2"
+			(uuid "dfd288f8-d2a3-47f3-8ecc-6715b1637c6a")
+		)
+		(pin "3"
+			(uuid "519f0c3a-af9d-4611-90a6-80f910b132a6")
+		)
+		(instances
+			(project "IC_SDC_Hub V2.0"
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 46.99 157.48 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86d1365a-ba61-4e52-a6ae-49e7d9d2de30")
+		(property "Reference" "#PWR06"
+			(at 40.64 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 157.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d34909d5-6660-47ea-86d5-48e8c5f586e3")
+		)
+		(instances
+			(project "IC_SDC_Hub V2.0"
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 90.17 162.56 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9485dff7-92c5-44c0-a080-df986b87c3f0")
+		(property "Reference" "R7"
+			(at 88.8999 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 91.4399 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 160.782 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 90.17 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "890b25b2-8c15-4be4-ab1c-21007f25a228")
+		)
+		(pin "2"
+			(uuid "2677babf-de87-40d7-b665-3cc59ba7348d")
+		)
+		(instances
+			(project "IC_SDC_Hub V2.0"
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.17 172.72 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e544753-bcbe-4b35-8d64-c0a254c84b47")
+		(property "Reference" "#PWR07"
+			(at 83.82 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 172.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fb93f14-6e6b-423e-94ff-52cb73942d0d")
+		)
+		(instances
+			(project "IC_SDC_Hub V2.0"
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 74.93 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab180a62-088e-4f9c-a1be-fcfa06688632")
+		(property "Reference" "TP2"
+			(at 77.47 142.7479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 77.47 145.2879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 74.93 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa3cedfe-0eb0-4620-bfc5-f7a43f9292d9")
+		)
+		(instances
+			(project "IC_SDC_Hub V2.0"
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 46.99 104.14 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af06e8cf-f2ea-4dc0-9d02-f04f3342c04e")
+		(property "Reference" "R3"
+			(at 45.7199 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 48.2599 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 102.362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 46.99 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97cd96d5-cf10-4dc3-b0fa-3aeddfd5d32a")
+		)
+		(pin "2"
+			(uuid "7f544432-8b81-4e93-8bbe-594151372bc3")
+		)
+		(instances
+			(project "IC_SDC_Hub V2.0"
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 46.99 118.11 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2a51e9c-dd66-4dc8-bc23-e07e71b45053")
+		(property "Reference" "R4"
+			(at 45.7199 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 48.2599 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 116.332 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 46.99 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "924d698b-fe60-4914-af2c-0c931664ddbb")
+		)
+		(pin "2"
+			(uuid "6d9fdf41-09b4-422a-be9a-fedd4993ffa0")
+		)
+		(instances
+			(project "IC_SDC_Hub V2.0"
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 35.56 118.11 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7745931-2bdc-4dbb-b518-792966c834c4")
+		(property "Reference" "D4"
+			(at 35.8774 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 38.4174 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 35.56 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 35.56 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a6d5578-ed8e-4c32-8088-c01134b75388")
+		)
+		(pin "2"
+			(uuid "798f9f7c-0744-4933-ae85-24dd7ba9d6c2")
+		)
+		(instances
+			(project "IC_SDC_Hub V2.0"
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -3025,6 +4721,824 @@
 			(project "IC_SDC_Hub V2.0"
 				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_MSM:MOSFET_N-CH")
+		(at 76.2 137.16 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "c8dd6a80-4c56-4f03-8dd5-d43285130ae2")
+		(property "Reference" "Q5"
+			(at 69.342 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS205N"
+			(at 70.612 141.732 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_MSM:MOSFET_Single_SOT-23"
+			(at 71.12 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/BSS205N_Rev2.4.pdf?folderId=db3a3043156fd573011622e10b5c1f67&fileId=db3a304330f686060131091244950062"
+			(at 76.2 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MSM standard 3-pin N-Channel MOSFET"
+			(at 76.2 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Infineon"
+			(at 76.2 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "BSS205NH6327XTSA1"
+			(at 76.2 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "726-BSS205NH6327"
+			(at 76.2 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://mou.sr/3WyFwkN"
+			(at 76.2 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PN" "BSS205NH6327XTSA1CT-ND"
+			(at 76.2 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PL" "https://www.digikey.co.uk/short/wdw0q373"
+			(at 76.2 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcb7a012-54b2-4dd6-9ccb-52669a6b3f94")
+		)
+		(pin "2"
+			(uuid "3f8f3cf3-3e92-4053-b455-092ac04c67d6")
+		)
+		(pin "3"
+			(uuid "31a60359-38e4-4f0c-a85d-be1595e88f6f")
+		)
+		(instances
+			(project "IC_SDC_Hub V2.0"
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 46.99 132.08 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d80e02fd-ed96-444e-8726-c5adae619263")
+		(property "Reference" "R5"
+			(at 45.7199 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 48.2599 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 130.302 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 46.99 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32163633-ced7-46ab-865e-6e9297773f7e")
+		)
+		(pin "2"
+			(uuid "893352bb-80b4-47f2-a90a-c9c3d6e2df2f")
+		)
+		(instances
+			(project "IC_SDC_Hub V2.0"
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 35.56 147.32 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d99032a4-168e-400d-9ed6-993335413ff6")
+		(property "Reference" "D6"
+			(at 35.8774 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 38.4174 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 35.56 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 35.56 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33f77f5f-4046-43b8-bf3b-eabbf7c5bb6b")
+		)
+		(pin "2"
+			(uuid "385feb2f-c394-4d84-8242-89eff3052a12")
+		)
+		(instances
+			(project "IC_SDC_Hub V2.0"
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 69.85 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de495b31-ceb3-49f2-8dec-67aca3b4ce3e")
+		(property "Reference" "TP3"
+			(at 72.39 127.5079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 72.39 130.0479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 69.85 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "370d445d-1373-4d1a-adbf-f04e6832d698")
+		)
+		(instances
+			(project "IC_SDC_Hub V2.0"
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 78.74 162.56 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e98e05a3-0a69-4a65-80b6-7e044982f9b6")
+		(property "Reference" "D7"
+			(at 79.0574 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 81.5974 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 78.74 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 78.74 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40430368-da53-428a-93a1-fafbf2e3d84e")
+		)
+		(pin "2"
+			(uuid "b7e7a937-fee6-4664-85ab-56f4fef8d84c")
+		)
+		(instances
+			(project "IC_SDC_Hub V2.0"
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 46.99 88.9 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7e810ae-9cc3-4213-80b0-7380013ddf8c")
+		(property "Reference" "R2"
+			(at 45.7199 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 48.2599 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 87.122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 46.99 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a32848a3-e58d-4cb1-b5c9-123b8a7b22e1")
+		)
+		(pin "2"
+			(uuid "e8ac7618-8159-4b63-9203-ba625adfd16b")
+		)
+		(instances
+			(project "IC_SDC_Hub V2.0"
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 46.99 114.3 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9c7008a-99a6-424d-8a4b-b11b5dfa6c4d")
+		(property "Reference" "#PWR03"
+			(at 40.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f9c99b9-8349-4881-ad8c-5dee902fef81")
+		)
+		(instances
+			(project "IC_SDC_Hub V2.0"
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_MSM:MOSFET_N-CH")
+		(at 66.04 123.19 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "fac57af0-c02e-497a-84c5-13bc3a1b8e77")
+		(property "Reference" "Q4"
+			(at 59.182 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS205N"
+			(at 60.452 127.762 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_MSM:MOSFET_Single_SOT-23"
+			(at 60.96 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/BSS205N_Rev2.4.pdf?folderId=db3a3043156fd573011622e10b5c1f67&fileId=db3a304330f686060131091244950062"
+			(at 66.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MSM standard 3-pin N-Channel MOSFET"
+			(at 66.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Infineon"
+			(at 66.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "BSS205NH6327XTSA1"
+			(at 66.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "726-BSS205NH6327"
+			(at 66.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://mou.sr/3WyFwkN"
+			(at 66.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PN" "BSS205NH6327XTSA1CT-ND"
+			(at 66.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PL" "https://www.digikey.co.uk/short/wdw0q373"
+			(at 66.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9669c94c-77ac-4388-8fca-f131abcf56a8")
+		)
+		(pin "2"
+			(uuid "b4277b0b-7f1a-4730-a04d-bd8473ec46c6")
+		)
+		(pin "3"
+			(uuid "9d7f0da0-deef-4390-9f3d-5610ed0e66ce")
+		)
+		(instances
+			(project "IC_SDC_Hub V2.0"
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_MSM:MOSFET_N-CH")
+		(at 58.42 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "ff8c5aed-6044-4d3c-850b-93037a16293f")
+		(property "Reference" "Q2"
+			(at 51.562 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS205N"
+			(at 52.832 98.552 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_MSM:MOSFET_Single_SOT-23"
+			(at 53.34 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/BSS205N_Rev2.4.pdf?folderId=db3a3043156fd573011622e10b5c1f67&fileId=db3a304330f686060131091244950062"
+			(at 58.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MSM standard 3-pin N-Channel MOSFET"
+			(at 58.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Infineon"
+			(at 58.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "BSS205NH6327XTSA1"
+			(at 58.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "726-BSS205NH6327"
+			(at 58.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://mou.sr/3WyFwkN"
+			(at 58.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PN" "BSS205NH6327XTSA1CT-ND"
+			(at 58.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PL" "https://www.digikey.co.uk/short/wdw0q373"
+			(at 58.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "811e687b-7e5d-4021-8e16-3036e84d8288")
+		)
+		(pin "2"
+			(uuid "0cdb4749-5ffb-45a9-a7c1-c1bca009449d")
+		)
+		(pin "3"
+			(uuid "36b38722-f5d1-445c-9419-6e2f12943dcf")
+		)
+		(instances
+			(project "IC_SDC_Hub V2.0"
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
