@@ -2666,7 +2666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 91.44 52.07 0)
 			(effects
 				(font
@@ -2734,7 +2734,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 67.31 95.25 0)
 			(effects
 				(font
@@ -2786,6 +2786,262 @@
 		)
 	)
 	(symbol
+		(lib_id "Custom_MSM:MOSFET_N-CH")
+		(at 133.35 130.81 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ef981ce-3a57-4fc3-929f-a3e79c9b1ab7")
+		(property "Reference" "Q1"
+			(at 127 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS205N"
+			(at 127 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_MSM:MOSFET_Single_SOT-23"
+			(at 128.27 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/BSS205N_Rev2.4.pdf?folderId=db3a3043156fd573011622e10b5c1f67&fileId=db3a304330f686060131091244950062"
+			(at 133.35 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MSM standard 3-pin N-Channel MOSFET"
+			(at 133.35 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Infineon"
+			(at 133.35 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "BSS205NH6327XTSA1"
+			(at 133.35 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "726-BSS205NH6327"
+			(at 133.35 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://mou.sr/3WyFwkN"
+			(at 133.35 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PN" "BSS205NH6327XTSA1CT-ND"
+			(at 133.35 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PL" "https://www.digikey.co.uk/short/wdw0q373"
+			(at 133.35 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e9418944-2134-4206-9461-45242482581d")
+		)
+		(pin "1"
+			(uuid "3a0bcf61-b098-4cb5-bc15-52a1130c8531")
+		)
+		(pin "2"
+			(uuid "353cb5a8-7c3d-4f9c-ab52-da36d5d49dab")
+		)
+		(instances
+			(project ""
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_MSM:MOSFET_N-CH")
+		(at 90.17 57.15 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22229d8b-57bb-4ca5-aef4-0db9f332e0a6")
+		(property "Reference" "Q6"
+			(at 83.82 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS205N"
+			(at 83.82 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_MSM:MOSFET_Single_SOT-23"
+			(at 85.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/BSS205N_Rev2.4.pdf?folderId=db3a3043156fd573011622e10b5c1f67&fileId=db3a304330f686060131091244950062"
+			(at 90.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MSM standard 3-pin N-Channel MOSFET"
+			(at 90.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Infineon"
+			(at 90.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "BSS205NH6327XTSA1"
+			(at 90.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "726-BSS205NH6327"
+			(at 90.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://mou.sr/3WyFwkN"
+			(at 90.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PN" "BSS205NH6327XTSA1CT-ND"
+			(at 90.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PL" "https://www.digikey.co.uk/short/wdw0q373"
+			(at 90.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e9418944-2134-4206-9461-45242482581e")
+		)
+		(pin "1"
+			(uuid "3a0bcf61-b098-4cb5-bc15-52a1130c8532")
+		)
+		(pin "2"
+			(uuid "353cb5a8-7c3d-4f9c-ab52-da36d5d49dac")
+		)
+		(instances
+			(project ""
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 86.36 67.31 0)
 		(unit 1)
@@ -2813,7 +3069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 91.44 67.31 0)
 			(effects
 				(font
@@ -3078,7 +3334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 133.35 125.73 0)
 			(effects
 				(font
@@ -3270,7 +3526,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 67.31 67.31 0)
 			(effects
 				(font
@@ -3417,7 +3673,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 67.31 52.07 0)
 			(effects
 				(font
@@ -3463,6 +3719,134 @@
 			(project "IC_SDC_Hub V2.0"
 				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_MSM:MOSFET_N-CH")
+		(at 114.3 115.57 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42f7472c-c74f-4c09-af6d-4308dab2517f")
+		(property "Reference" "Q2"
+			(at 107.95 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS205N"
+			(at 107.95 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_MSM:MOSFET_Single_SOT-23"
+			(at 109.22 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/BSS205N_Rev2.4.pdf?folderId=db3a3043156fd573011622e10b5c1f67&fileId=db3a304330f686060131091244950062"
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MSM standard 3-pin N-Channel MOSFET"
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Infineon"
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "BSS205NH6327XTSA1"
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "726-BSS205NH6327"
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://mou.sr/3WyFwkN"
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PN" "BSS205NH6327XTSA1CT-ND"
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PL" "https://www.digikey.co.uk/short/wdw0q373"
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e9418944-2134-4206-9461-45242482581f")
+		)
+		(pin "1"
+			(uuid "3a0bcf61-b098-4cb5-bc15-52a1130c8533")
+		)
+		(pin "2"
+			(uuid "353cb5a8-7c3d-4f9c-ab52-da36d5d49dad")
+		)
+		(instances
+			(project ""
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -3656,133 +4040,6 @@
 			(project "IC_SDC_Hub V2.0"
 				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Custom_MSM:MOSFET_N-CH")
-		(at 133.35 130.81 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "4fac0210-cf71-44c9-9672-276b7b53f2ac")
-		(property "Reference" "Q7"
-			(at 126.492 131.318 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS205N"
-			(at 127.762 135.382 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Custom_MSM:MOSFET_Single_SOT-23"
-			(at 128.27 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/BSS205N_Rev2.4.pdf?folderId=db3a3043156fd573011622e10b5c1f67&fileId=db3a304330f686060131091244950062"
-			(at 133.35 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MSM standard 3-pin N-Channel MOSFET"
-			(at 133.35 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" "Infineon"
-			(at 133.35 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFP" "BSS205NH6327XTSA1"
-			(at 133.35 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S1PN" "726-BSS205NH6327"
-			(at 133.35 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S1PL" "https://mou.sr/3WyFwkN"
-			(at 133.35 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S2PN" "BSS205NH6327XTSA1CT-ND"
-			(at 133.35 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S2PL" "https://www.digikey.co.uk/short/wdw0q373"
-			(at 133.35 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac7dfcf8-9bf2-4d6c-9a9f-8dc044eed716")
-		)
-		(pin "2"
-			(uuid "6df11b86-880d-4812-bf9a-270c89acd6a7")
-		)
-		(pin "3"
-			(uuid "581c5b92-2153-4d41-a8ce-e083af4be0c6")
-		)
-		(instances
-			(project "IC_SDC_Hub V2.0"
-				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
-					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -4188,7 +4445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 97.79 81.28 0)
 			(effects
 				(font
@@ -4222,133 +4479,6 @@
 			(project "IC_SDC_Hub V2.0"
 				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
 					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Custom_MSM:MOSFET_N-CH")
-		(at 90.17 72.39 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "6a554705-d43e-43e2-9ed1-3a1b48f4ef34")
-		(property "Reference" "Q3"
-			(at 83.312 72.898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS205N"
-			(at 84.582 76.962 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Custom_MSM:MOSFET_Single_SOT-23"
-			(at 85.09 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/BSS205N_Rev2.4.pdf?folderId=db3a3043156fd573011622e10b5c1f67&fileId=db3a304330f686060131091244950062"
-			(at 90.17 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MSM standard 3-pin N-Channel MOSFET"
-			(at 90.17 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" "Infineon"
-			(at 90.17 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFP" "BSS205NH6327XTSA1"
-			(at 90.17 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S1PN" "726-BSS205NH6327"
-			(at 90.17 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S1PL" "https://mou.sr/3WyFwkN"
-			(at 90.17 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S2PN" "BSS205NH6327XTSA1CT-ND"
-			(at 90.17 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S2PL" "https://www.digikey.co.uk/short/wdw0q373"
-			(at 90.17 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca08b9a4-7a7f-4058-b729-4c1d53baa52c")
-		)
-		(pin "2"
-			(uuid "afdbd214-65a9-43f9-aa4e-3f2b7af9da63")
-		)
-		(pin "3"
-			(uuid "9901fafe-3d12-4797-a0de-78f8ba3bf667")
-		)
-		(instances
-			(project "IC_SDC_Hub V2.0"
-				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -4424,16 +4554,17 @@
 	)
 	(symbol
 		(lib_id "Custom_MSM:MOSFET_N-CH")
-		(at 114.3 115.57 0)
+		(at 97.79 86.36 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
-		(uuid "8467dbd9-a9b4-4076-9b95-4606cc8d233c")
-		(property "Reference" "Q6"
-			(at 107.442 116.078 0)
+		(fields_autoplaced yes)
+		(uuid "863556ce-1e1d-4a6d-b993-bcbeab8332d3")
+		(property "Reference" "Q4"
+			(at 91.44 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4442,7 +4573,7 @@
 			)
 		)
 		(property "Value" "BSS205N"
-			(at 108.712 120.142 90)
+			(at 91.44 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4451,7 +4582,7 @@
 			)
 		)
 		(property "Footprint" "Custom_MSM:MOSFET_Single_SOT-23"
-			(at 109.22 113.03 0)
+			(at 92.71 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4460,7 +4591,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/BSS205N_Rev2.4.pdf?folderId=db3a3043156fd573011622e10b5c1f67&fileId=db3a304330f686060131091244950062"
-			(at 114.3 115.57 0)
+			(at 97.79 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4469,7 +4600,7 @@
 			)
 		)
 		(property "Description" "MSM standard 3-pin N-Channel MOSFET"
-			(at 114.3 115.57 0)
+			(at 97.79 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4478,7 +4609,7 @@
 			)
 		)
 		(property "MFN" "Infineon"
-			(at 114.3 115.57 0)
+			(at 97.79 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4487,7 +4618,7 @@
 			)
 		)
 		(property "MFP" "BSS205NH6327XTSA1"
-			(at 114.3 115.57 0)
+			(at 97.79 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4496,7 +4627,7 @@
 			)
 		)
 		(property "S1PN" "726-BSS205NH6327"
-			(at 114.3 115.57 0)
+			(at 97.79 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4505,7 +4636,7 @@
 			)
 		)
 		(property "S1PL" "https://mou.sr/3WyFwkN"
-			(at 114.3 115.57 0)
+			(at 97.79 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4514,7 +4645,7 @@
 			)
 		)
 		(property "S2PN" "BSS205NH6327XTSA1CT-ND"
-			(at 114.3 115.57 0)
+			(at 97.79 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4523,7 +4654,7 @@
 			)
 		)
 		(property "S2PL" "https://www.digikey.co.uk/short/wdw0q373"
-			(at 114.3 115.57 0)
+			(at 97.79 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4531,19 +4662,19 @@
 				(hide yes)
 			)
 		)
+		(pin "3"
+			(uuid "e9418944-2134-4206-9461-452424825820")
+		)
 		(pin "1"
-			(uuid "49355350-efa6-4936-8946-204f6927778f")
+			(uuid "3a0bcf61-b098-4cb5-bc15-52a1130c8534")
 		)
 		(pin "2"
-			(uuid "dfd288f8-d2a3-47f3-8ecc-6715b1637c6a")
-		)
-		(pin "3"
-			(uuid "519f0c3a-af9d-4611-90a6-80f910b132a6")
+			(uuid "353cb5a8-7c3d-4f9c-ab52-da36d5d49dae")
 		)
 		(instances
-			(project "IC_SDC_Hub V2.0"
+			(project ""
 				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
-					(reference "Q6")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -4637,7 +4768,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 123.1899 128.27 0)
 			(effects
 				(font
@@ -4784,7 +4915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 111.76 110.49 0)
 			(effects
 				(font
@@ -4893,6 +5024,134 @@
 		)
 	)
 	(symbol
+		(lib_id "Custom_MSM:MOSFET_N-CH")
+		(at 90.17 72.39 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0cf5bb5-c536-4e51-85e5-926117181e3b")
+		(property "Reference" "Q5"
+			(at 83.82 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS205N"
+			(at 83.82 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_MSM:MOSFET_Single_SOT-23"
+			(at 85.09 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/BSS205N_Rev2.4.pdf?folderId=db3a3043156fd573011622e10b5c1f67&fileId=db3a304330f686060131091244950062"
+			(at 90.17 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MSM standard 3-pin N-Channel MOSFET"
+			(at 90.17 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Infineon"
+			(at 90.17 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "BSS205NH6327XTSA1"
+			(at 90.17 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "726-BSS205NH6327"
+			(at 90.17 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://mou.sr/3WyFwkN"
+			(at 90.17 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PN" "BSS205NH6327XTSA1CT-ND"
+			(at 90.17 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S2PL" "https://www.digikey.co.uk/short/wdw0q373"
+			(at 90.17 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e9418944-2134-4206-9461-452424825821")
+		)
+		(pin "1"
+			(uuid "3a0bcf61-b098-4cb5-bc15-52a1130c8535")
+		)
+		(pin "2"
+			(uuid "353cb5a8-7c3d-4f9c-ab52-da36d5d49daf")
+		)
+		(instances
+			(project ""
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 78.74 81.28 90)
 		(mirror x)
@@ -4990,7 +5249,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 67.31 81.28 0)
 			(effects
 				(font
@@ -5166,17 +5425,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 241.3 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca5553ef-1260-4604-b06b-c3f3cb94c330")
+		(property "Reference" "J9"
+			(at 243.84 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 243.84 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XA_S03B-XASK-1_1x03_P2.50mm_Horizontal"
+			(at 241.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 241.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9d84df6-6a52-477a-b697-2530c74cf76d")
+		)
+		(pin "2"
+			(uuid "eec1b5e1-7e4a-4b2e-a201-293edbe5ba59")
+		)
+		(pin "3"
+			(uuid "8473a361-5883-445c-975f-5b651d8d57df")
+		)
+		(instances
+			(project "IC_SDC_Hub V2.0"
+				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Custom_MSM:MOSFET_N-CH")
 		(at 107.95 100.33 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
-		(uuid "c8dd6a80-4c56-4f03-8dd5-d43285130ae2")
-		(property "Reference" "Q5"
-			(at 101.092 100.838 0)
+		(fields_autoplaced yes)
+		(uuid "d44134bc-bc12-49a9-be6c-61a80acaeb5a")
+		(property "Reference" "Q3"
+			(at 101.6 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5185,7 +5518,7 @@
 			)
 		)
 		(property "Value" "BSS205N"
-			(at 102.362 104.902 90)
+			(at 101.6 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5274,92 +5607,19 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "fcb7a012-54b2-4dd6-9ccb-52669a6b3f94")
-		)
-		(pin "2"
-			(uuid "3f8f3cf3-3e92-4053-b455-092ac04c67d6")
-		)
 		(pin "3"
-			(uuid "31a60359-38e4-4f0c-a85d-be1595e88f6f")
-		)
-		(instances
-			(project "IC_SDC_Hub V2.0"
-				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 241.3 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca5553ef-1260-4604-b06b-c3f3cb94c330")
-		(property "Reference" "J9"
-			(at 243.84 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 243.84 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 241.3 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "e9418944-2134-4206-9461-452424825822")
 		)
 		(pin "1"
-			(uuid "b9d84df6-6a52-477a-b697-2530c74cf76d")
+			(uuid "3a0bcf61-b098-4cb5-bc15-52a1130c8536")
 		)
 		(pin "2"
-			(uuid "eec1b5e1-7e4a-4b2e-a201-293edbe5ba59")
-		)
-		(pin "3"
-			(uuid "8473a361-5883-445c-975f-5b651d8d57df")
+			(uuid "353cb5a8-7c3d-4f9c-ab52-da36d5d49db0")
 		)
 		(instances
-			(project "IC_SDC_Hub V2.0"
+			(project ""
 				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
-					(reference "J9")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -5393,7 +5653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XA_S03B-XASK-1_1x03_P2.50mm_Horizontal"
 			(at 241.3 71.12 0)
 			(effects
 				(font
@@ -5537,7 +5797,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 67.31 110.49 0)
 			(effects
 				(font
@@ -5616,7 +5876,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 106.68 95.25 0)
 			(effects
 				(font
@@ -5684,7 +5944,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 110.49 125.73 0)
 			(effects
 				(font
@@ -5867,260 +6127,6 @@
 			(project "IC_SDC_Hub V2.0"
 				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Custom_MSM:MOSFET_N-CH")
-		(at 97.79 86.36 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "fac57af0-c02e-497a-84c5-13bc3a1b8e77")
-		(property "Reference" "Q4"
-			(at 90.932 86.868 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS205N"
-			(at 92.202 90.932 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Custom_MSM:MOSFET_Single_SOT-23"
-			(at 92.71 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/BSS205N_Rev2.4.pdf?folderId=db3a3043156fd573011622e10b5c1f67&fileId=db3a304330f686060131091244950062"
-			(at 97.79 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MSM standard 3-pin N-Channel MOSFET"
-			(at 97.79 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" "Infineon"
-			(at 97.79 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFP" "BSS205NH6327XTSA1"
-			(at 97.79 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S1PN" "726-BSS205NH6327"
-			(at 97.79 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S1PL" "https://mou.sr/3WyFwkN"
-			(at 97.79 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S2PN" "BSS205NH6327XTSA1CT-ND"
-			(at 97.79 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S2PL" "https://www.digikey.co.uk/short/wdw0q373"
-			(at 97.79 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9669c94c-77ac-4388-8fca-f131abcf56a8")
-		)
-		(pin "2"
-			(uuid "b4277b0b-7f1a-4730-a04d-bd8473ec46c6")
-		)
-		(pin "3"
-			(uuid "9d7f0da0-deef-4390-9f3d-5610ed0e66ce")
-		)
-		(instances
-			(project "IC_SDC_Hub V2.0"
-				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Custom_MSM:MOSFET_N-CH")
-		(at 90.17 57.15 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "ff8c5aed-6044-4d3c-850b-93037a16293f")
-		(property "Reference" "Q2"
-			(at 83.312 57.658 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS205N"
-			(at 84.582 61.722 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Custom_MSM:MOSFET_Single_SOT-23"
-			(at 85.09 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/BSS205N_Rev2.4.pdf?folderId=db3a3043156fd573011622e10b5c1f67&fileId=db3a304330f686060131091244950062"
-			(at 90.17 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MSM standard 3-pin N-Channel MOSFET"
-			(at 90.17 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" "Infineon"
-			(at 90.17 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFP" "BSS205NH6327XTSA1"
-			(at 90.17 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S1PN" "726-BSS205NH6327"
-			(at 90.17 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S1PL" "https://mou.sr/3WyFwkN"
-			(at 90.17 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S2PN" "BSS205NH6327XTSA1CT-ND"
-			(at 90.17 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S2PL" "https://www.digikey.co.uk/short/wdw0q373"
-			(at 90.17 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "811e687b-7e5d-4021-8e16-3036e84d8288")
-		)
-		(pin "2"
-			(uuid "0cdb4749-5ffb-45a9-a7c1-c1bca009449d")
-		)
-		(pin "3"
-			(uuid "36b38722-f5d1-445c-9419-6e2f12943dcf")
-		)
-		(instances
-			(project "IC_SDC_Hub V2.0"
-				(path "/b296b2e3-589e-4215-8d69-96257576fa6f"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
