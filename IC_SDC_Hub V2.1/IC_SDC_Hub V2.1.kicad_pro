@@ -188,7 +188,7 @@
       ],
       "track_widths": [
         0.0,
-        1.0
+        0.2
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -465,7 +465,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "IC_SDC_Hub V2.0.kicad_pro",
+    "filename": "IC_SDC_Hub V2.1.kicad_pro",
     "version": 3
   },
   "net_settings": {
