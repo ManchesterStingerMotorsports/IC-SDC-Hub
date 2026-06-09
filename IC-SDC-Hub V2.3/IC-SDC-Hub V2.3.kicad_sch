@@ -1555,7 +1555,7 @@
 	)
 	(text "LEFT SDB\n"
 		(exclude_from_sim no)
-		(at 139.7 104.648 0)
+		(at 158.75 141.478 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1577,7 +1577,7 @@
 	)
 	(text "BOTS"
 		(exclude_from_sim no)
-		(at 137.922 118.11 0)
+		(at 156.972 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1597,7 +1597,7 @@
 	)
 	(text "INERTIA SWITCH"
 		(exclude_from_sim no)
-		(at 141.224 123.698 0)
+		(at 160.274 160.528 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1607,7 +1607,7 @@
 	)
 	(text "RIGHT SDB"
 		(exclude_from_sim no)
-		(at 138.43 111.506 0)
+		(at 157.48 148.336 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1617,7 +1617,7 @@
 	)
 	(text "BSPD"
 		(exclude_from_sim no)
-		(at 136.398 92.202 0)
+		(at 155.448 129.032 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1637,7 +1637,7 @@
 	)
 	(text "Power in\n"
 		(exclude_from_sim no)
-		(at 129.286 82.804 0)
+		(at 148.336 119.634 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1647,7 +1647,7 @@
 	)
 	(text "COCKPIT SDB"
 		(exclude_from_sim no)
-		(at 139.7 98.298 0)
+		(at 158.75 135.128 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1657,7 +1657,7 @@
 	)
 	(text "Out"
 		(exclude_from_sim no)
-		(at 123.444 141.478 0)
+		(at 142.494 178.308 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1692,7 +1692,7 @@
 		(uuid "18532d49-4cc0-490b-8b31-51add4a5ddc0")
 	)
 	(junction
-		(at 113.03 142.24)
+		(at 132.08 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44476056-4896-492a-8d1e-77c3a3137090")
@@ -1704,7 +1704,7 @@
 		(uuid "60fde91c-4cae-47bd-a2ed-fe6dbc625520")
 	)
 	(junction
-		(at 113.03 144.78)
+		(at 132.08 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e032854-01f6-4ed4-bc24-a29094869859")
@@ -1734,7 +1734,7 @@
 		(uuid "a45310da-8c5a-450a-8f4b-7ad3bf64c9c7")
 	)
 	(junction
-		(at 113.03 85.09)
+		(at 132.08 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cea0c269-0c7f-4ec1-a7a8-f9b030edf502")
@@ -1761,7 +1761,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 118.11) (xy 113.03 121.92)
+			(xy 132.08 154.94) (xy 132.08 158.75)
 		)
 		(stroke
 			(width 0)
@@ -1781,7 +1781,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 105.41) (xy 113.03 109.22)
+			(xy 132.08 142.24) (xy 132.08 146.05)
 		)
 		(stroke
 			(width 0)
@@ -1801,7 +1801,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 144.78) (xy 113.03 142.24)
+			(xy 132.08 181.61) (xy 132.08 179.07)
 		)
 		(stroke
 			(width 0)
@@ -1821,7 +1821,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 111.76) (xy 113.03 115.57)
+			(xy 132.08 148.59) (xy 132.08 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1831,7 +1831,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 82.55) (xy 113.03 85.09)
+			(xy 132.08 119.38) (xy 132.08 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1881,7 +1881,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 142.24) (xy 113.03 124.46)
+			(xy 132.08 179.07) (xy 132.08 161.29)
 		)
 		(stroke
 			(width 0)
@@ -1961,7 +1961,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 99.06) (xy 113.03 102.87)
+			(xy 132.08 135.89) (xy 132.08 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1991,7 +1991,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 85.09) (xy 113.03 90.17)
+			(xy 132.08 121.92) (xy 132.08 127)
 		)
 		(stroke
 			(width 0)
@@ -2001,7 +2001,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 92.71) (xy 113.03 96.52)
+			(xy 132.08 129.54) (xy 132.08 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2021,7 +2021,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 147.32) (xy 113.03 144.78)
+			(xy 132.08 184.15) (xy 132.08 181.61)
 		)
 		(stroke
 			(width 0)
@@ -2081,7 +2081,7 @@
 	)
 	(global_label "COCKPIT"
 		(shape input)
-		(at 113.03 100.33 180)
+		(at 132.08 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2091,7 +2091,7 @@
 		)
 		(uuid "03115489-7695-4d60-8ec2-8fd6f2cd7ee0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.0619 100.33 0)
+			(at 121.1119 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2153,7 +2153,7 @@
 	)
 	(global_label "BOTS"
 		(shape input)
-		(at 113.03 119.38 180)
+		(at 132.08 156.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2163,7 +2163,7 @@
 		)
 		(uuid "3165be9d-45a4-4d74-8b55-60fda2c13b36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.2672 119.38 0)
+			(at 124.3172 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2177,7 +2177,7 @@
 	)
 	(global_label "RIGHT"
 		(shape input)
-		(at 113.03 113.03 180)
+		(at 132.08 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2187,7 +2187,7 @@
 		)
 		(uuid "3eb549ff-f91a-438c-a50d-bb37182f66ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.6019 113.03 0)
+			(at 123.6519 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2225,7 +2225,7 @@
 	)
 	(global_label "INERTIA SWITCH"
 		(shape input)
-		(at 113.03 127 180)
+		(at 132.08 163.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2235,7 +2235,7 @@
 		)
 		(uuid "49019a71-83f2-4c6f-b7bd-5b6820e93708")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.2281 127 0)
+			(at 114.2781 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2393,7 +2393,7 @@
 	)
 	(global_label "BSPD"
 		(shape input)
-		(at 113.03 93.98 180)
+		(at 132.08 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2403,7 +2403,7 @@
 		)
 		(uuid "6314675b-1d40-4e37-870a-a1fc606e7d52")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.0253 93.98 0)
+			(at 124.0753 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2417,7 +2417,7 @@
 	)
 	(global_label "LEFT"
 		(shape input)
-		(at 113.03 106.68 180)
+		(at 132.08 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2427,7 +2427,7 @@
 		)
 		(uuid "69679fdc-2fb2-499c-998e-9dc069656a2f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.8115 106.68 0)
+			(at 124.8615 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3436,7 +3436,7 @@
 	)
 	(symbol
 		(lib_id "Custom_MSM:Connector_JST-XA_2POS")
-		(at 118.11 82.55 0)
+		(at 137.16 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3447,7 +3447,7 @@
 		(fields_autoplaced yes)
 		(uuid "2de3e86a-88f0-4ac6-872e-990369490ec7")
 		(property "Reference" "J10"
-			(at 120.65 82.5499 0)
+			(at 139.7 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3458,7 +3458,7 @@
 			)
 		)
 		(property "Value" "JST-XA"
-			(at 120.65 85.0899 0)
+			(at 139.7 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3469,7 +3469,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XA_S02B-XASK-1_1x02_P2.50mm_Horizontal"
-			(at 118.11 82.55 0)
+			(at 137.16 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3480,7 +3480,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
-			(at 118.11 82.55 0)
+			(at 137.16 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3491,7 +3491,7 @@
 			)
 		)
 		(property "Description" "MSM standard 2-pin JST-XA connector"
-			(at 118.11 82.55 0)
+			(at 137.16 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3502,7 +3502,7 @@
 			)
 		)
 		(property "MFN" "JST"
-			(at 118.11 82.55 0)
+			(at 137.16 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3513,7 +3513,7 @@
 			)
 		)
 		(property "MFP" "B02B-XASK-1"
-			(at 118.11 82.55 0)
+			(at 137.16 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3524,7 +3524,7 @@
 			)
 		)
 		(property "S1PN" "306-B02BXASK1LFSNP"
-			(at 118.11 82.55 0)
+			(at 137.16 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3535,7 +3535,7 @@
 			)
 		)
 		(property "S1PL" "https://mou.sr/47CbilP"
-			(at 118.11 82.55 0)
+			(at 137.16 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3546,7 +3546,7 @@
 			)
 		)
 		(property "S2PN" "455-B02B-XASK-1-ND"
-			(at 118.11 82.55 0)
+			(at 137.16 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3557,7 +3557,7 @@
 			)
 		)
 		(property "S2PL" "https://www.digikey.co.uk/short/91htv4bz"
-			(at 118.11 82.55 0)
+			(at 137.16 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3584,7 +3584,7 @@
 	)
 	(symbol
 		(lib_id "Custom_MSM:Connector_JST-XA_2POS")
-		(at 118.11 121.92 0)
+		(at 137.16 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3595,7 +3595,7 @@
 		(fields_autoplaced yes)
 		(uuid "31f4ef8a-d765-4e34-afb3-bc587f9e405d")
 		(property "Reference" "J6"
-			(at 120.65 121.9199 0)
+			(at 139.7 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3606,7 +3606,7 @@
 			)
 		)
 		(property "Value" "JST-XA"
-			(at 120.65 124.4599 0)
+			(at 139.7 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3617,7 +3617,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XA_S02B-XASK-1_1x02_P2.50mm_Horizontal"
-			(at 118.11 121.92 0)
+			(at 137.16 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3628,7 +3628,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
-			(at 118.11 121.92 0)
+			(at 137.16 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3639,7 +3639,7 @@
 			)
 		)
 		(property "Description" "MSM standard 2-pin JST-XA connector"
-			(at 118.11 121.92 0)
+			(at 137.16 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3650,7 +3650,7 @@
 			)
 		)
 		(property "MFN" "JST"
-			(at 118.11 121.92 0)
+			(at 137.16 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3661,7 +3661,7 @@
 			)
 		)
 		(property "MFP" "B02B-XASK-1"
-			(at 118.11 121.92 0)
+			(at 137.16 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3672,7 +3672,7 @@
 			)
 		)
 		(property "S1PN" "306-B02BXASK1LFSNP"
-			(at 118.11 121.92 0)
+			(at 137.16 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3683,7 +3683,7 @@
 			)
 		)
 		(property "S1PL" "https://mou.sr/47CbilP"
-			(at 118.11 121.92 0)
+			(at 137.16 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3694,7 +3694,7 @@
 			)
 		)
 		(property "S2PN" "455-B02B-XASK-1-ND"
-			(at 118.11 121.92 0)
+			(at 137.16 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3705,7 +3705,7 @@
 			)
 		)
 		(property "S2PL" "https://www.digikey.co.uk/short/91htv4bz"
-			(at 118.11 121.92 0)
+			(at 137.16 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4137,7 +4137,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 116.84 68.58 90)
+		(at 135.89 105.41 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4148,7 +4148,7 @@
 		(fields_autoplaced yes)
 		(uuid "46218f1a-7b6a-4a8c-9738-365896b71c19")
 		(property "Reference" "#PWR01"
-			(at 120.65 68.58 0)
+			(at 139.7 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4159,7 +4159,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 113.03 68.5799 90)
+			(at 132.08 105.4099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4170,7 +4170,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 68.58 0)
+			(at 135.89 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4181,7 +4181,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 68.58 0)
+			(at 135.89 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4192,7 +4192,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 116.84 68.58 0)
+			(at 135.89 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4296,7 +4296,7 @@
 	)
 	(symbol
 		(lib_id "Custom_MSM:Connector_JST-XA_2POS")
-		(at 118.11 109.22 0)
+		(at 137.16 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4307,7 +4307,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e7fc769-c164-4c4a-8fc9-3686ee1c3d64")
 		(property "Reference" "J4"
-			(at 120.65 109.2199 0)
+			(at 139.7 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4318,7 +4318,7 @@
 			)
 		)
 		(property "Value" "JST-XA"
-			(at 120.65 111.7599 0)
+			(at 139.7 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4329,7 +4329,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XA_S02B-XASK-1_1x02_P2.50mm_Horizontal"
-			(at 118.11 109.22 0)
+			(at 137.16 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4340,7 +4340,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
-			(at 118.11 109.22 0)
+			(at 137.16 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4351,7 +4351,7 @@
 			)
 		)
 		(property "Description" "MSM standard 2-pin JST-XA connector"
-			(at 118.11 109.22 0)
+			(at 137.16 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4362,7 +4362,7 @@
 			)
 		)
 		(property "MFN" "JST"
-			(at 118.11 109.22 0)
+			(at 137.16 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4373,7 +4373,7 @@
 			)
 		)
 		(property "MFP" "B02B-XASK-1"
-			(at 118.11 109.22 0)
+			(at 137.16 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4384,7 +4384,7 @@
 			)
 		)
 		(property "S1PN" "306-B02BXASK1LFSNP"
-			(at 118.11 109.22 0)
+			(at 137.16 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4395,7 +4395,7 @@
 			)
 		)
 		(property "S1PL" "https://mou.sr/47CbilP"
-			(at 118.11 109.22 0)
+			(at 137.16 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4406,7 +4406,7 @@
 			)
 		)
 		(property "S2PN" "455-B02B-XASK-1-ND"
-			(at 118.11 109.22 0)
+			(at 137.16 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4417,7 +4417,7 @@
 			)
 		)
 		(property "S2PL" "https://www.digikey.co.uk/short/91htv4bz"
-			(at 118.11 109.22 0)
+			(at 137.16 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4687,7 +4687,7 @@
 	)
 	(symbol
 		(lib_id "Custom_MSM:Connector_JST-XA_2POS")
-		(at 118.11 90.17 0)
+		(at 137.16 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4698,7 +4698,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d3a6f35-cd91-4b46-b329-ee65447cbae4")
 		(property "Reference" "J1"
-			(at 120.65 90.1699 0)
+			(at 139.7 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4709,7 +4709,7 @@
 			)
 		)
 		(property "Value" "JST-XA"
-			(at 120.65 92.7099 0)
+			(at 139.7 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4720,7 +4720,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XA_S02B-XASK-1_1x02_P2.50mm_Horizontal"
-			(at 118.11 90.17 0)
+			(at 137.16 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4731,7 +4731,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
-			(at 118.11 90.17 0)
+			(at 137.16 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4742,7 +4742,7 @@
 			)
 		)
 		(property "Description" "MSM standard 2-pin JST-XA connector"
-			(at 118.11 90.17 0)
+			(at 137.16 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4753,7 +4753,7 @@
 			)
 		)
 		(property "MFN" "JST"
-			(at 118.11 90.17 0)
+			(at 137.16 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4764,7 +4764,7 @@
 			)
 		)
 		(property "MFP" "B02B-XASK-1"
-			(at 118.11 90.17 0)
+			(at 137.16 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4775,7 +4775,7 @@
 			)
 		)
 		(property "S1PN" "306-B02BXASK1LFSNP"
-			(at 118.11 90.17 0)
+			(at 137.16 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4786,7 +4786,7 @@
 			)
 		)
 		(property "S1PL" "https://mou.sr/47CbilP"
-			(at 118.11 90.17 0)
+			(at 137.16 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4797,7 +4797,7 @@
 			)
 		)
 		(property "S2PN" "455-B02B-XASK-1-ND"
-			(at 118.11 90.17 0)
+			(at 137.16 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4808,7 +4808,7 @@
 			)
 		)
 		(property "S2PL" "https://www.digikey.co.uk/short/91htv4bz"
-			(at 118.11 90.17 0)
+			(at 137.16 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4913,7 +4913,7 @@
 	)
 	(symbol
 		(lib_id "Custom_MSM:Connector_JST-XA_2POS")
-		(at 118.11 115.57 0)
+		(at 137.16 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4924,7 +4924,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f9bcc88-24d4-483f-833a-b55c5a230a8e")
 		(property "Reference" "J5"
-			(at 120.65 115.5699 0)
+			(at 139.7 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4935,7 +4935,7 @@
 			)
 		)
 		(property "Value" "JST-XA"
-			(at 120.65 118.1099 0)
+			(at 139.7 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4946,7 +4946,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XA_S02B-XASK-1_1x02_P2.50mm_Horizontal"
-			(at 118.11 115.57 0)
+			(at 137.16 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4957,7 +4957,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
-			(at 118.11 115.57 0)
+			(at 137.16 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4968,7 +4968,7 @@
 			)
 		)
 		(property "Description" "MSM standard 2-pin JST-XA connector"
-			(at 118.11 115.57 0)
+			(at 137.16 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4979,7 +4979,7 @@
 			)
 		)
 		(property "MFN" "JST"
-			(at 118.11 115.57 0)
+			(at 137.16 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4990,7 +4990,7 @@
 			)
 		)
 		(property "MFP" "B02B-XASK-1"
-			(at 118.11 115.57 0)
+			(at 137.16 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5001,7 +5001,7 @@
 			)
 		)
 		(property "S1PN" "306-B02BXASK1LFSNP"
-			(at 118.11 115.57 0)
+			(at 137.16 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5012,7 +5012,7 @@
 			)
 		)
 		(property "S1PL" "https://mou.sr/47CbilP"
-			(at 118.11 115.57 0)
+			(at 137.16 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5023,7 +5023,7 @@
 			)
 		)
 		(property "S2PN" "455-B02B-XASK-1-ND"
-			(at 118.11 115.57 0)
+			(at 137.16 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5034,7 +5034,7 @@
 			)
 		)
 		(property "S2PL" "https://www.digikey.co.uk/short/91htv4bz"
-			(at 118.11 115.57 0)
+			(at 137.16 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5139,7 +5139,7 @@
 	)
 	(symbol
 		(lib_id "Custom_MSM:Connector_JST-XA_2POS")
-		(at 118.11 96.52 0)
+		(at 137.16 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5150,7 +5150,7 @@
 		(fields_autoplaced yes)
 		(uuid "62f08a8e-7a74-4c1c-8b5f-f3f44dc9d8b0")
 		(property "Reference" "J2"
-			(at 120.65 96.5199 0)
+			(at 139.7 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5161,7 +5161,7 @@
 			)
 		)
 		(property "Value" "JST-XA"
-			(at 120.65 99.0599 0)
+			(at 139.7 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5172,7 +5172,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XA_S02B-XASK-1_1x02_P2.50mm_Horizontal"
-			(at 118.11 96.52 0)
+			(at 137.16 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5183,7 +5183,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
-			(at 118.11 96.52 0)
+			(at 137.16 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5194,7 +5194,7 @@
 			)
 		)
 		(property "Description" "MSM standard 2-pin JST-XA connector"
-			(at 118.11 96.52 0)
+			(at 137.16 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5205,7 +5205,7 @@
 			)
 		)
 		(property "MFN" "JST"
-			(at 118.11 96.52 0)
+			(at 137.16 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5216,7 +5216,7 @@
 			)
 		)
 		(property "MFP" "B02B-XASK-1"
-			(at 118.11 96.52 0)
+			(at 137.16 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5227,7 +5227,7 @@
 			)
 		)
 		(property "S1PN" "306-B02BXASK1LFSNP"
-			(at 118.11 96.52 0)
+			(at 137.16 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5238,7 +5238,7 @@
 			)
 		)
 		(property "S1PL" "https://mou.sr/47CbilP"
-			(at 118.11 96.52 0)
+			(at 137.16 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5249,7 +5249,7 @@
 			)
 		)
 		(property "S2PN" "455-B02B-XASK-1-ND"
-			(at 118.11 96.52 0)
+			(at 137.16 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5260,7 +5260,7 @@
 			)
 		)
 		(property "S2PL" "https://www.digikey.co.uk/short/91htv4bz"
-			(at 118.11 96.52 0)
+			(at 137.16 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5959,7 +5959,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 66.04 270)
+		(at 135.89 102.87 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5971,7 +5971,7 @@
 		(fields_autoplaced yes)
 		(uuid "91d846bb-0612-4aac-b9df-b99467442e72")
 		(property "Reference" "#PWR013"
-			(at 110.49 66.04 0)
+			(at 129.54 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5982,7 +5982,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 66.0399 90)
+			(at 132.08 102.8699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5993,7 +5993,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 66.04 0)
+			(at 135.89 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6004,7 +6004,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 66.04 0)
+			(at 135.89 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6015,7 +6015,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 66.04 0)
+			(at 135.89 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6323,7 +6323,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 118.11 144.78 0)
+		(at 137.16 181.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6334,7 +6334,7 @@
 		(fields_autoplaced yes)
 		(uuid "ace5003f-7585-482f-b7fe-f2d4a0e9bdf6")
 		(property "Reference" "J7"
-			(at 120.65 143.5099 0)
+			(at 139.7 180.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6345,7 +6345,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 120.65 146.0499 0)
+			(at 139.7 182.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6356,7 +6356,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XA_S03B-XASK-1_1x03_P2.50mm_Horizontal"
-			(at 118.11 144.78 0)
+			(at 137.16 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6367,7 +6367,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 144.78 0)
+			(at 137.16 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6378,7 +6378,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 118.11 144.78 0)
+			(at 137.16 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6651,7 +6651,7 @@
 	)
 	(symbol
 		(lib_id "Custom_MSM:Connector_JST-XA_2POS")
-		(at 121.92 66.04 0)
+		(at 140.97 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6662,7 +6662,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8419a0d-39a4-4c68-8d4b-69f6bb0ac53a")
 		(property "Reference" "J11"
-			(at 124.46 66.0399 0)
+			(at 143.51 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6673,7 +6673,7 @@
 			)
 		)
 		(property "Value" "JST-XA"
-			(at 124.46 68.5799 0)
+			(at 143.51 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6684,7 +6684,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XA_S02B-XASK-1_1x02_P2.50mm_Horizontal"
-			(at 121.92 66.04 0)
+			(at 140.97 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6695,7 +6695,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
-			(at 121.92 66.04 0)
+			(at 140.97 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6706,7 +6706,7 @@
 			)
 		)
 		(property "Description" "MSM standard 2-pin JST-XA connector"
-			(at 121.92 66.04 0)
+			(at 140.97 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6717,7 +6717,7 @@
 			)
 		)
 		(property "MFN" "JST"
-			(at 121.92 66.04 0)
+			(at 140.97 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6728,7 +6728,7 @@
 			)
 		)
 		(property "MFP" "B02B-XASK-1"
-			(at 121.92 66.04 0)
+			(at 140.97 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6739,7 +6739,7 @@
 			)
 		)
 		(property "S1PN" "306-B02BXASK1LFSNP"
-			(at 121.92 66.04 0)
+			(at 140.97 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6750,7 +6750,7 @@
 			)
 		)
 		(property "S1PL" "https://mou.sr/47CbilP"
-			(at 121.92 66.04 0)
+			(at 140.97 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6761,7 +6761,7 @@
 			)
 		)
 		(property "S2PN" "455-B02B-XASK-1-ND"
-			(at 121.92 66.04 0)
+			(at 140.97 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6772,7 +6772,7 @@
 			)
 		)
 		(property "S2PL" "https://www.digikey.co.uk/short/91htv4bz"
-			(at 121.92 66.04 0)
+			(at 140.97 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6799,7 +6799,7 @@
 	)
 	(symbol
 		(lib_id "Custom_MSM:Connector_JST-XA_2POS")
-		(at 118.11 102.87 0)
+		(at 137.16 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6810,7 +6810,7 @@
 		(fields_autoplaced yes)
 		(uuid "c89ac07e-8fb0-41c8-ac00-188a3d20eb01")
 		(property "Reference" "J3"
-			(at 120.65 102.8699 0)
+			(at 139.7 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6821,7 +6821,7 @@
 			)
 		)
 		(property "Value" "JST-XA"
-			(at 120.65 105.4099 0)
+			(at 139.7 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6832,7 +6832,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XA_S02B-XASK-1_1x02_P2.50mm_Horizontal"
-			(at 118.11 102.87 0)
+			(at 137.16 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6843,7 +6843,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eXA-WB-new.pdf"
-			(at 118.11 102.87 0)
+			(at 137.16 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6854,7 +6854,7 @@
 			)
 		)
 		(property "Description" "MSM standard 2-pin JST-XA connector"
-			(at 118.11 102.87 0)
+			(at 137.16 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6865,7 +6865,7 @@
 			)
 		)
 		(property "MFN" "JST"
-			(at 118.11 102.87 0)
+			(at 137.16 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6876,7 +6876,7 @@
 			)
 		)
 		(property "MFP" "B02B-XASK-1"
-			(at 118.11 102.87 0)
+			(at 137.16 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6887,7 +6887,7 @@
 			)
 		)
 		(property "S1PN" "306-B02BXASK1LFSNP"
-			(at 118.11 102.87 0)
+			(at 137.16 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6898,7 +6898,7 @@
 			)
 		)
 		(property "S1PL" "https://mou.sr/47CbilP"
-			(at 118.11 102.87 0)
+			(at 137.16 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6909,7 +6909,7 @@
 			)
 		)
 		(property "S2PN" "455-B02B-XASK-1-ND"
-			(at 118.11 102.87 0)
+			(at 137.16 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6920,7 +6920,7 @@
 			)
 		)
 		(property "S2PL" "https://www.digikey.co.uk/short/91htv4bz"
-			(at 118.11 102.87 0)
+			(at 137.16 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
